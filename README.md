@@ -1,70 +1,161 @@
-# Getting Started with Create React App
+<div align='center'>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tá Chovendo Hambúrguer 🍔☔
+</div>
 
-## Available Scripts
+# Índice
 
-In the project directory, you can run:
+- [1. Resumo do projeto](#1-Resumo-do-Projeto-pushpin)
+- [2. Histórias de usuário](#2-Histórias-de-Usuário-woman-man)
+- [3. Protótipo, Paleta de Cores e Tema](#3-Protótipo-Paleta-de-Cores-e-Tema-art)
+- [4. Testes de Usabilidade](#4-Testes-de-Usabilidade-busts_in_silhouette)
+- [5. Aplicação em Funcionamento](#5-Aplicação-em-Funcionamento-computer)
+- [6. Tecnologias Utilizadas](#6-Tecnologias-utilizadas-octocat)
+- [7. Autoras](#7-Autoras-woman_technologist-woman_technologist)
 
-### `npm start`
+---
+<div align='center'>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![](./src/Images/GIF_Tá_Chovendo_Hamburguer.gif)
+ </div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Aplicativo web voltado para gerenciamento interno de pedidos e comandas do restaurante Tá Chovendo Hambúrguer. O usuário pode realizar ações como atendente anotando pedidos, mandando para preparo e servindo os pedidos prontos da cozinha ou como cozinheiro vizualizando pedidos a serem feitos, preparando e atualizando o status dos pedidos.
 
-### `npm test`
+<div align='center'>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🔗 [Link da aplicação](https://sap-007-burger-queen-api-client.vercel.app/) 🔗
 
-### `npm run build`
+Credenciais de acesso:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+|     | Atendimento         | Cozinha         |
+| --- | ------------------- | --------------- |
+| 📨  | atendimento@tch.com | cozinha@tch.com |
+| 🔐  | 123456              | 123456          |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ <br>
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
+<div align='center'>
 
-### `npm run eject`
+# 1. Resumo do Projeto :pushpin:
+</div>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Um restaurante de hambúrgueres necessita uma
+interface em que se possa realizar pedidos utilizando um _tablet_, e enviá-los
+para a cozinha para que sejam preparados de forma ordenada e eficiente.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Este projeto tem duas áreas: interface (cliente) e API (servidor). Nosso
+cliente nos pediu para desenvolver uma interface que se integre com a API.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+A interface deve mostrar os dois menus (café da manhã e restante do dia), cada
+um com todos os seus _produtos_. O usuário deve poder escolher que _produtos_
+adicionar e a interface deve mostrar o _resumo do pedido_ com o custo total.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Além disso a cliente nos deu uma documentação com o comportamento 
+esperado da API que iremos expor por HTTP. 
+Lá podemos encontrar todos os detalhes dos _endpoints_.
 
-## Learn More
+O objetivo principal é aprender a construir uma _interface web_ usando o
+_framework_ React. Esses framework resolve
+o problema de **como manter a interface e estado sincronizados** utilizando o conceito de _estado da
+tela_, e como cada mudança no estado vai refletir na interface.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+O projeto foi realizado em 6 sprints utilizando as metodologias ágeis SCRUM e KANBAN, por meio da plataforma [Trello](https://trello.com/b/oGsYEhKx).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<div align='center'>
 
-### Analyzing the Bundle Size
+# 2. Histórias de Usuário :woman: :man:
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<div align='center'>
+<img width=650px src="./src/Images/historias-de-usuario.png">
+</div>
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<div align='center'>
 
-### Advanced Configuration
+# 3. Protótipo, Paleta de Cores e Tema :art:
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+O protótipo, disponível [neste link](https://www.figma.com/file/1lObcDyrzTJ3JQwJ3BXkdf/Burguer-Queen?node-id=0%3A1), foi desenvolvido pensando em conceitos importantes para aplicações web como tipografia, hierarquia e contraste.
 
-### Deployment
+O tema e a paleta de cores foram inpirados no filme Tá Chovendo Hambúrguer, de 2009, em que o personagem principal cria uma máquina que transforma água em comida e de repente começa a chover hambúrgueres em toda a cidade.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<div align='center'>
 
-### `npm run build` fails to minify
+<img width=650px src="./src/Images/prototipo.gif">
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+<div align='center'>
+
+# 4. Testes de Usabilidade :busts_in_silhouette:
+</div>
+
+Durante o desenvolvimento do projeto, foram realizados testes de usabilidade com usuários no intuito de analisar a experiência do usuário com a aplicação. Com base nos feedbacks dos testes, foram implementadas as seguintes soluções:
+
+- Hover nos botões de excluir produto e de sair;
+- Mensagem de sucesso após o garçom realizar o pedido;
+- Indicação das páginas login e cadastro no formulário;
+
+---
+
+<div align='center'>
+
+# 5. Aplicação em Funcionamento :computer:
+
+<img width=650px src="./src/Images/aplicacao.gif">
+
+---
+
+</div>
+
+<div align='center'>
+
+# 6. Tecnologias utilizadas :octocat:
+
+<p align="center">
+<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
+<a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a>
+<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
+<a href="https://jestjs.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="40" height="40"/> </a>
+<a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
+<a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a>
+</p>
+
+---
+
+</div>
+
+<div align='center'>
+
+# 7. Autoras :woman_technologist: :woman_technologist:
+</div>
+
+# Keila Hadama
+
+- [LinkedIn](https://www.linkedin.com/in/keila-hadama/)
+- E-mail: hadamakeila@gmail.com
+
+# Leticia Antunes
+
+- [LinkedIn](https://www.linkedin.com/in/leticiaantunes95/)
+- E-mail: leticiaantunes95@outlook.com
+
+---
+
+<div align='center'>
+
+## Obrigada pela visita, volte sempre! :grinning:
+
+<img width=1000px src="./src/Images/GIF_Tá_Chovendo_Hamburguer2.gif">
+</div>

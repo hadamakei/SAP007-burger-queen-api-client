@@ -86,9 +86,9 @@ O protótipo, disponível [neste link](https://www.figma.com/file/1lObcDyrzTJ3JQ
 
 O tema e a paleta de cores foram inpirados no filme Tá Chovendo Hambúrguer, de 2009, em que o personagem principal cria uma máquina que transforma água em comida e de repente começa a chover hambúrgueres em toda a cidade.
 
-<div align='center'>
+<div align='center' >
 
-<img width=650px src="./src/Images/prototipo.gif">
+<img width=550px src="./src/Images/prototipo.gif">
 </div>
 
 ---
@@ -110,7 +110,7 @@ Durante o desenvolvimento do projeto, foram realizados testes de usabilidade com
 
 # 5. Aplicação em Funcionamento :computer:
 
-<img width=650px src="./src/Images/aplicacao.gif">
+<img width=550px src="./src/Images/aplicacao.gif">
 
 ---
 

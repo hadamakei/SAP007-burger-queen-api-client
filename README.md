@@ -95,7 +95,7 @@ O tema e a paleta de cores foram inpirados no filme Tá Chovendo Hambúrguer, de
 
 <div align='center'>
 
-# 4. Testes de Usabilidade :busts_in_silhouette:
+# 4. Testes :busts_in_silhouette:
 </div>
 
 Durante o desenvolvimento do projeto, foram realizados testes de usabilidade com usuários no intuito de analisar a experiência do usuário com a aplicação. Com base nos feedbacks dos testes, foram implementadas as seguintes soluções:
@@ -103,6 +103,8 @@ Durante o desenvolvimento do projeto, foram realizados testes de usabilidade com
 - Hover nos botões de excluir produto e de sair;
 - Mensagem de sucesso após o garçom realizar o pedido;
 - Indicação das páginas login e cadastro no formulário;
+
+Realizamos também testes unitários e assíncronos dos componentes, das páginas de Login e Cadastros com o [Jest](https://jestjs.io/pt-BR/).
 
 ---
 

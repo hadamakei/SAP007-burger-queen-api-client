@@ -8,7 +8,7 @@
 - [1. Resumo do projeto](#1-Resumo-do-Projeto-pushpin)
 - [2. Histórias de usuário](#2-Histórias-de-Usuário-woman-man)
 - [3. Protótipo, Paleta de Cores e Tema](#3-Protótipo-Paleta-de-Cores-e-Tema-art)
-- [4. Testes de Usabilidade](#4-Testes-de-Usabilidade-busts_in_silhouette)
+- [4. Testes](#4-Testes-de-Usabilidade-busts_in_silhouette)
 - [5. Aplicação em Funcionamento](#5-Aplicação-em-Funcionamento-computer)
 - [6. Tecnologias Utilizadas](#6-Tecnologias-utilizadas-octocat)
 - [7. Autoras](#7-Autoras-woman_technologist-woman_technologist)

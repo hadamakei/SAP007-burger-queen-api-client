@@ -88,7 +88,7 @@ O tema e a paleta de cores foram inpirados no filme Tá Chovendo Hambúrguer, de
 
 <div align='center' >
 
-<img width=550px src="./src/Images/prototipo.gif">
+<img width=450px height=400px src="./src/Images/prototipo.gif">
 </div>
 
 ---
@@ -110,7 +110,7 @@ Durante o desenvolvimento do projeto, foram realizados testes de usabilidade com
 
 # 5. Aplicação em Funcionamento :computer:
 
-<img width=550px src="./src/Images/aplicacao.gif">
+<img width=350px height=400px src="./src/Images/aplicacao.gif">
 
 ---
 
@@ -127,9 +127,9 @@ Durante o desenvolvimento do projeto, foram realizados testes de usabilidade com
 <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a>
 <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
 <a href="https://jestjs.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="40" height="40"/> </a>
-<a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
-<a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a>
+ <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="80" height="80"/> </a>
+<a href="https://vercel.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/vercel.svg" alt="vercel" width="80" height="80" /> </a>
 </p>
 
 ---
